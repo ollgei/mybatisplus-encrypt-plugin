@@ -3,10 +3,10 @@ package com.github.ollgei.plugin.mybatisplus.sensitive.test.all.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.chenhaiyang.plugin.mybatis.sensitive.Encrypt;
-import com.chenhaiyang.plugin.mybatis.sensitive.encrypt.AesSupport;
-import com.chenhaiyang.plugin.mybatis.sensitive.interceptor.DecryptReadInterceptor;
-import com.chenhaiyang.plugin.mybatis.sensitive.interceptor.SensitiveAndEncryptWriteInterceptor;
+import com.github.ollgei.plugin.mybatisplus.sensitive.Encrypt;
+import com.github.ollgei.plugin.mybatisplus.sensitive.encrypt.AesSupport;
+import com.github.ollgei.plugin.mybatisplus.sensitive.interceptor.DecryptReadInterceptor;
+import com.github.ollgei.plugin.mybatisplus.sensitive.interceptor.SensitiveAndEncryptWriteInterceptor;
 import org.mybatis.spring.boot.autoconfigure.ConfigurationCustomizer;
 
 /**

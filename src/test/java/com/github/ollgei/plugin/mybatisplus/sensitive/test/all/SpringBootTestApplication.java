@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan("com.chenhaiyang.plugin.mybatis.sensitive.test")
+@ComponentScan("com.github.ollgei.plugin.mybatisplus.sensitive.test")
 @SpringBootApplication
 public class SpringBootTestApplication {
     public static void main(String[] args) {

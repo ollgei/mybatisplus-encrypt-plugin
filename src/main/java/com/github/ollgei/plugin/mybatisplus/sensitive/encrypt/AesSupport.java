@@ -8,11 +8,11 @@ import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 
-import com.chenhaiyang.plugin.mybatis.sensitive.Encrypt;
-import com.chenhaiyang.plugin.mybatis.sensitive.type.SensitiveType;
-import com.chenhaiyang.plugin.mybatis.sensitive.type.SensitiveTypeHandler;
-import com.chenhaiyang.plugin.mybatis.sensitive.type.SensitiveTypeRegisty;
-import com.chenhaiyang.plugin.mybatis.sensitive.utils.Hex;
+import com.github.ollgei.plugin.mybatisplus.sensitive.type.SensitiveType;
+import com.github.ollgei.plugin.mybatisplus.sensitive.type.SensitiveTypeHandler;
+import com.github.ollgei.plugin.mybatisplus.sensitive.type.SensitiveTypeRegisty;
+import com.github.ollgei.plugin.mybatisplus.sensitive.utils.Hex;
+import com.github.ollgei.plugin.mybatisplus.sensitive.Encrypt;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 
@@ -21,7 +21,7 @@ import org.apache.commons.lang3.StringUtils;
  * @author chenhaiyang
  */
 @Slf4j
-public class AesSupport implements Encrypt{
+public class AesSupport implements Encrypt {
 
     private static final String KEY_ALGORITHM = "AES";
     private static final String DEFAULT_CIPHER_ALGORITHM = "AES/ECB/PKCS5Padding";

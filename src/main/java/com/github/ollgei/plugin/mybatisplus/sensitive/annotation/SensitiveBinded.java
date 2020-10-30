@@ -7,7 +7,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-import com.chenhaiyang.plugin.mybatis.sensitive.type.SensitiveType;
+import com.github.ollgei.plugin.mybatisplus.sensitive.type.SensitiveType;
 
 /**
  * 此注解适用于如下场景：

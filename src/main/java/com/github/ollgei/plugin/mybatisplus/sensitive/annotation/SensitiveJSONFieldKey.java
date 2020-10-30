@@ -7,7 +7,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-import com.chenhaiyang.plugin.mybatis.sensitive.type.SensitiveType;
+import com.github.ollgei.plugin.mybatisplus.sensitive.type.SensitiveType;
 
 /**
  * json字段中需要脱敏的key字段以及key脱敏类型

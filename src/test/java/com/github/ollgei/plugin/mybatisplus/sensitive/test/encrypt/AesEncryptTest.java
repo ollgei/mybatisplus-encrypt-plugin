@@ -2,7 +2,7 @@ package com.github.ollgei.plugin.mybatisplus.sensitive.test.encrypt;
 
 import java.security.NoSuchAlgorithmException;
 
-import com.chenhaiyang.plugin.mybatis.sensitive.encrypt.AesSupport;
+import com.github.ollgei.plugin.mybatisplus.sensitive.encrypt.AesSupport;
 import org.junit.Test;
 
 public class AesEncryptTest {

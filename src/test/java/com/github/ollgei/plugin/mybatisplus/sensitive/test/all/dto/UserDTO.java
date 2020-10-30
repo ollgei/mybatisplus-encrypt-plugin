@@ -1,12 +1,12 @@
 package com.github.ollgei.plugin.mybatisplus.sensitive.test.all.dto;
 
-import com.chenhaiyang.plugin.mybatis.sensitive.annotation.EncryptField;
-import com.chenhaiyang.plugin.mybatis.sensitive.annotation.SensitiveBinded;
-import com.chenhaiyang.plugin.mybatis.sensitive.annotation.SensitiveEncryptEnabled;
-import com.chenhaiyang.plugin.mybatis.sensitive.annotation.SensitiveField;
-import com.chenhaiyang.plugin.mybatis.sensitive.annotation.SensitiveJSONField;
-import com.chenhaiyang.plugin.mybatis.sensitive.annotation.SensitiveJSONFieldKey;
-import com.chenhaiyang.plugin.mybatis.sensitive.type.SensitiveType;
+import com.github.ollgei.plugin.mybatisplus.sensitive.annotation.EncryptField;
+import com.github.ollgei.plugin.mybatisplus.sensitive.annotation.SensitiveBinded;
+import com.github.ollgei.plugin.mybatisplus.sensitive.annotation.SensitiveEncryptEnabled;
+import com.github.ollgei.plugin.mybatisplus.sensitive.annotation.SensitiveField;
+import com.github.ollgei.plugin.mybatisplus.sensitive.annotation.SensitiveJSONField;
+import com.github.ollgei.plugin.mybatisplus.sensitive.annotation.SensitiveJSONFieldKey;
+import com.github.ollgei.plugin.mybatisplus.sensitive.type.SensitiveType;
 import lombok.Data;
 
 @SensitiveEncryptEnabled

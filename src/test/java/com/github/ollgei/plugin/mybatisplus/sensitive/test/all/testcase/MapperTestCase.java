@@ -9,7 +9,7 @@ import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
 
-import com.chenhaiyang.plugin.mybatis.sensitive.utils.JsonUtils;
+import com.github.ollgei.plugin.mybatisplus.sensitive.utils.JsonUtils;
 import com.github.ollgei.plugin.mybatisplus.sensitive.test.all.dto.UserDTO;
 import com.github.ollgei.plugin.mybatisplus.sensitive.test.all.mapper.UserMapper;
 

@@ -1,14 +1,14 @@
 package com.github.ollgei.plugin.mybatisplus.sensitive.test.sensitive;
 
-import com.chenhaiyang.plugin.mybatis.sensitive.type.handler.AddressSensitiveHandler;
-import com.chenhaiyang.plugin.mybatis.sensitive.type.handler.BandCardSensitiveHandler;
-import com.chenhaiyang.plugin.mybatis.sensitive.type.handler.CnapsSensitiveHandler;
-import com.chenhaiyang.plugin.mybatis.sensitive.type.handler.EmailSensitiveHandler;
-import com.chenhaiyang.plugin.mybatis.sensitive.type.handler.FixedPhoneSensitiveHandler;
-import com.chenhaiyang.plugin.mybatis.sensitive.type.handler.IDCardSensitiveHandler;
-import com.chenhaiyang.plugin.mybatis.sensitive.type.handler.MobilePhoneSensitiveHandler;
-import com.chenhaiyang.plugin.mybatis.sensitive.type.handler.NameSensitiveHandler;
-import com.chenhaiyang.plugin.mybatis.sensitive.type.handler.PaySignNoSensitiveHandler;
+import com.github.ollgei.plugin.mybatisplus.sensitive.type.handler.AddressSensitiveHandler;
+import com.github.ollgei.plugin.mybatisplus.sensitive.type.handler.BandCardSensitiveHandler;
+import com.github.ollgei.plugin.mybatisplus.sensitive.type.handler.CnapsSensitiveHandler;
+import com.github.ollgei.plugin.mybatisplus.sensitive.type.handler.EmailSensitiveHandler;
+import com.github.ollgei.plugin.mybatisplus.sensitive.type.handler.FixedPhoneSensitiveHandler;
+import com.github.ollgei.plugin.mybatisplus.sensitive.type.handler.IDCardSensitiveHandler;
+import com.github.ollgei.plugin.mybatisplus.sensitive.type.handler.MobilePhoneSensitiveHandler;
+import com.github.ollgei.plugin.mybatisplus.sensitive.type.handler.NameSensitiveHandler;
+import com.github.ollgei.plugin.mybatisplus.sensitive.type.handler.PaySignNoSensitiveHandler;
 import org.junit.Test;
 
 public class SensitiveHandlerTest {
