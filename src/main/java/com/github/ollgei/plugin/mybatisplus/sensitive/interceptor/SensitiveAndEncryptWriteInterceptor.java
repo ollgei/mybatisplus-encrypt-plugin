@@ -9,6 +9,7 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Properties;
 
+import com.github.ollgei.base.commonj.utils.CommonHelper;
 import com.github.ollgei.plugin.mybatisplus.sensitive.Encrypt;
 import com.github.ollgei.plugin.mybatisplus.sensitive.annotation.EncryptField;
 import com.github.ollgei.plugin.mybatisplus.sensitive.annotation.SensitiveEncryptEnabled;
@@ -109,8 +110,9 @@ public class SensitiveAndEncryptWriteInterceptor implements Interceptor {
                 }
             }
             if(value!=null && newValue!=null && !value.equals(newValue)) {
-                String name = field.getName().substring(0, 1).toUpperCase() + field.getName().substring(1);
-                Method setter = param.getClass().getMethod("set" + name, field.getType());
+                Method setter = param.getClass().getMethod(
+                        "set" + CommonHelper.capitalize(field.getName()),
+                        field.getType());
                 if (setter != null) {
                     setter.invoke(param, newValue);
                 }
